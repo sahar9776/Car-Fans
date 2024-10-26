@@ -19,7 +19,7 @@ function Contact() {
     validationSchema: yup.object({
       username: yup.string().max(15).min(3).required(),
       email: yup.string().email("invalid email").required(),
-      email: yup.string().max(1000).min(3).required(),
+      description: yup.string().max(1000).min(3).required(),
     }),
   });
 
