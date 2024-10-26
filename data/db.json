@@ -1,0 +1,211 @@
+{
+  "brands": [
+    {
+      "id": 1,
+      "name": "tesla",
+      "Headquarters": " Austin, US",
+      "description": "Tesla, founded by Elon Musk, has revolutionised the automotive industry with an array of electric vehicles and sustainable energy solutions. Known for its groundbreaking technology, Tesla produces popular models like the Model S, Model 3, Model X, and Model Y, alongside advancements in battery technology and autonomous driving.",
+      "imageBrand": "https://steerev.com/wp-content/uploads/teslas-technological-invnovation-ev.png",
+      "CEO": "Elon Musk"
+    },
+    {
+      "id": 2,
+      "name": "Toyota",
+      "Headquarters": " Toyota City, Japan",
+      "description": "Tesla, founded by Elon Musk, has revolutionised the automotive industry with an array of electric vehicles and sustainable energy solutions. Known for its groundbreaking technology, Tesla produces popular models like the Model S, Model 3, Model X, and Model Y, alongside advancements in battery technology and autonomous driving.",
+      "imageBrand": "https://www.thedrive.com/wp-content/uploads/2024/08/exterior-2025-Camry-img_8219.jpg?quality=85",
+      "CEO": "Kōji Satō"
+    },
+    {
+      "id": 3,
+      "name": "BYD",
+      "Headquarters": " Shenzhen, Guangdong, China",
+      "description": "BYD (Build Your Dreams) is a leading Chinese automaker specialising in electric vehicles, batteries, and renewable energy solutions. With a strong emphasis on sustainability, BYD is committed to making electric transportation accessible to all. From electric cars and buses to energy storage solutions, BYD is driving the transition to a greener future.",
+      "imageBrand": "https://cdn.motor1.com/images/mgl/L3kAgG/s1/byd-ocean-m-concept.webp",
+      "CEO": "Wang Chuanfu"
+    },
+    {
+      "id": 4,
+      "name": "Ferrari",
+      "Headquarters": "Maranello, Emilia-Romagna, Italy",
+      "description": "Ferrari is synonymous with passion, performance, and exclusivity in the automotive world. Ferrari is a manufacturer of iconic supercars and racing legends and represents the pinnacle of Italian automotive craftsmanship. With a racing heritage and a commitment to uncompromising quality, Ferrari continues to captivate enthusiasts worldwide.",
+      "imageBrand": "https://www.europeanprestige.co.uk/blobs/stock/216/images/b42ca385-2e76-43a8-8818-7952dabc1a0a/1j6a6068-edit.jpg?width=2000&height=1333",
+      "CEO": "Benedetto Vigna"
+    },
+    {
+      "id": 5,
+      "name": "Xiaomi",
+      "Headquarters": "Beijing, China",
+      "description": "With electric vehicles capturing consumers' attention worldwide, China's Xiaomi Automobile Co Ltd, better known as Xiaomi Auto, has quickly become one of the largest automobile companies in the country. One of the newest brands on the market, Xiaomi Auto, was set up with an initial investment of 10 billion Chinese yuan. Using the expertise of parent company Xiaomi, a consumer electronics company, Xiaomi Auto offers the Xiaomi SU7, a full-size BEV sedan. Its upcoming launch, the Xiaomi MX11, will be an electric SUV.",
+      "imageBrand": "https://akm-img-a-in.tosshub.com/businesstoday/styles/medium_crop_simple/public/images/story/202312/untitled_design_-_2023-12-29t111223.538.jpg?itok=hJfvN5ig",
+      "CEO": "Lei Jun"
+    },
+    {
+      "id": 6,
+      "name": "Porsche",
+      "Headquarters": "Stuttgart, Germany",
+      "description": "Porsche is renowned for its luxurious and high-performance sports cars, representing the epitome of automotive engineering and design. From the iconic 911 to the Cayenne SUV, Porsche vehicles blend power and precision, offering an exhilarating driving experience. As part of the Volkswagen Group, Porsche continues to push the boundaries of automotive excellence.",
+      "imageBrand": "https://images.fastcompany.com/image/upload/f_webp,c_fit,w_1920,q_auto/fc/1280-Porsche-918_Spyder_Prototype_2012_1600x1200_wallpaper_03.jpg",
+      "CEO": "Oliver Blume"
+    },
+    {
+      "id": 7,
+      "name": "Mercedes-Benz",
+      "Headquarters": "Stuttgart, Germany",
+      "description": "Mercedes-Benz is synonymous with luxury, craftsmanship, and technological innovation. From elegant sedans to powerful SUVs and high-performance AMG models, Mercedes-Benz vehicles exemplify sophistication and engineering excellence. With a legacy spanning over a century, Mercedes-Benz continues to set new standards in automotive luxury.",
+      "imageBrand": "https://autoimage.capitalone.com/dealer/2023-Mercedes-Benz-G-Class-G_550-W1NYC6BJ9PX462554-vauto_W1NYC6BJ9PX462554_MP20519-7bd744b4b33e7fea6de6c873d1cf821e.jpg?width=640&height=480",
+      "CEO": "Ola Källenius"
+    },
+    {
+      "id": 8,
+      "name": "BMW",
+      "Headquarters": "Munich, Bavaria, Germany",
+      "description": "BMW (Bayerische Motoren Werke) is renowned for its premium vehicles that combine luxury, performance, and innovation. From sporty sedans like the 3 Series to elegant SUVs like the X5, BMW offers a diverse lineup to cater to a wide range of preferences. With a focus on driving pleasure and cutting-edge technology, BMW sets the standard for driving excellence.",
+      "imageBrand": "https://images.hindustantimes.com/auto/img/2022/08/21/1600x900/BMW_Vision_M_1643109906741_1661053810065_1661053810065.jpg",
+      "CEO": "Oliver Zipse"
+    },
+    {
+      "id": 9,
+      "name": "Volkswagen",
+      "Headquarters": "Wolfsburg, Lower Saxony, Germany",
+      "description": "William C Durant established General Motors on September 16, 1908. Durant was the largest seller of horse-drawn vehicles at the time, and GM was founded as a holding company for its first acquisition of the brand Buick. The automobile company is known for brands such as Chevrolet, GMC, Cadillac, and Buick. The current company came into existence after General Motors Chapter 11 recognition for bankruptcy in 2009. Now, the company also makes vehicles for the United States government and military and is in collaboration with NASA to develop EVs.",
+      "imageBrand": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/VW_K%C3%A4fer_Baujahr_1966.jpg/1200px-VW_K%C3%A4fer_Baujahr_1966.jpg",
+      "CEO": "Oliver Blume"
+    },
+    {
+      "id": 10,
+      "name": "General Motors",
+      "Headquarters": " Detroit, US",
+      "description": "William C Durant established General Motors on September 16, 1908. Durant was the largest seller of horse-drawn vehicles at the time, and GM was founded as a holding company for its first acquisition of the brand Buick. The automobile company is known for brands such as Chevrolet, GMC, Cadillac, and Buick. The current company came into existence after General Motors Chapter 11 recognition for bankruptcy in 2009. Now, the company also makes vehicles for the United States government and military and is in collaboration with NASA to develop EVs",
+      "imageBrand": "https://aghayerent.com/wp-content/uploads/2021/05/General-Motors-Gmc.jpg",
+      "CEO": " Mary Barra"
+    }
+  ],
+  "cars": [
+    {
+      "id": 1,
+      "carName": " Porsche 918 Spyder — 218 MPH",
+      "image": "https://images.fastcompany.com/image/upload/f_webp,c_fit,w_1920,q_auto/fc/1280-Porsche-918_Spyder_Prototype_2012_1600x1200_wallpaper_03.jpg"
+    },
+    {
+      "id": 2,
+      "carName": "Aston Martin One-77 — 220 MPH",
+      "image": "https://robbreport.com/wp-content/uploads/2021/06/1-20.jpg?w=1000"
+    },
+    {
+      "id": 3,
+      "carName": "Lamborghini Aventador LP 780-4 Ultimae — 221 MPH",
+      "image": "https://robbreport.com/wp-content/uploads/2021/07/3-4.jpg?w=1000"
+    },
+    {
+      "id": 4,
+      "carName": "Gordon Murray Automotive T.50 — 230 MPH (Claimed)",
+      "image": "https://robbreport.com/wp-content/uploads/2021/02/t50s01.jpg?w=800"
+    },
+    {
+      "id": 5,
+      "carName": "Pagani Huayra — 238 MPH",
+      "image": "https://robbreport.com/wp-content/uploads/2020/02/imola01.jpg?w=800"
+    },
+    {
+      "id": 6,
+      "carName": "Pagani Huayra BC Roadster — 240 MPH (Estimated)",
+      "image": "https://robbreport.com/wp-content/uploads/2021/06/6-17.jpg?w=800"
+    },
+    {
+      "id": 7,
+      "carName": "McLaren F1 — 240.1 MPH",
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/173bebdc-11a3-452c-a193-a4a1697fc005/dgotrf5-3933a36e-da9b-41f3-b9d9-a00256c5c14f.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzE3M2JlYmRjLTExYTMtNDUyYy1hMTkzLWE0YTE2OTdmYzAwNVwvZGdvdHJmNS0zOTMzYTM2ZS1kYTliLTQxZjMtYjlkOS1hMDAyNTZjNWMxNGYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.bwSraJdaW8a0gDz6mQ_ZGAU0EiRqLRdSGyiK62LWGGI"
+    },
+    {
+      "id": 8,
+      "carName": "Saleen S7 Twin Turbo — 248 MPH",
+      "image": "https://soec.org/wp-soec/wp-content/uploads/2016/06/news_2016_s7tt_06-073_06.jpg"
+    },
+    {
+      "id": 9,
+      "carName": "Koenigsegg CCXR — 249 MPH",
+      "image": "https://robbreport.com/wp-content/uploads/2019/04/ccxr.jpg?w=800"
+    },
+    {
+      "id": 10,
+      "carName": "Koenigsegg Gemera — 249 MPH (Claimed)",
+      "image": "https://robbreport.com/wp-content/uploads/2020/03/gemera05.jpg?w=800"
+    },
+    {
+      "id": 11,
+      "carName": "Tesla Roadster — 250+ MPH (Claimed)",
+      "image": "https://robbreport.com/wp-content/uploads/2021/06/8-9.jpg?w=800"
+    },
+    {
+      "id": 12,
+      "carName": " Aston Martin Valkyrie — 250 MPH (Claimed)",
+      "image": "https://robbreport.com/wp-content/uploads/2019/08/aston-martine280941.jpg?w=800"
+    },
+    {
+      "id": 13,
+      "carName": "McLaren Speedtail — 250 MPH",
+      "image": "https://cdn-ds.com/blogs-media/sites/199/2021/05/07132758/McLaren-Speedtail_A_o.jpg"
+    },
+    {
+      "id": 14,
+      "carName": "Czinger 21C V Max—253 MPH (Claimed)",
+      "image": "https://www.carscoops.com/wp-content/uploads/2023/07/Czinger-21-C-V-Max-6.jpg"
+    },
+    {
+      "id": 15,
+      "carName": "SSC Ultimate Aero TT— 256.1 MPH",
+      "image": "https://robbreport.com/wp-content/uploads/2013/10/1491921.jpg?w=800"
+    },
+    {
+      "id": 16,
+      "carName": "Rimac Nevera — 258 MPH",
+      "image": "https://robbreport.com/wp-content/uploads/2022/11/23-1.jpg?w=800"
+    },
+    {
+      "id": 17,
+      "carName": "Bugatti Mistral — 261 MPH (Claimed, Roof off)",
+      "image": "https://robbreport.com/wp-content/uploads/2022/08/mistral02.jpg?w=800"
+    },
+    {
+      "id": 18,
+      "carName": "Bugatti Veyron Super Sport — 267.8 MPH",
+      "image": "https://robbreport.com/wp-content/uploads/2013/10/1491921.jpg?w=800"
+    },
+    {
+      "id": 19,
+      "carName": "Hennessey Venom GT — 270.4 MPH",
+      "image": "https://www.venomgt.com/wp-content/uploads/2016/04/venomgt-convertible-world-record-07.jpg"
+    },
+    {
+      "id": 20,
+      "carName": "Koenigsegg Agera RS — 277.8 MPH",
+      "image": "https://cdn.motor1.com/images/mgl/BXXAQ4/s3/koenigsegg-jesko-absolut.jpg"
+    },
+    {
+      "id": 21,
+      "carName": "SSC Tuatara — 295 MPH",
+      "image": "https://robbreport.com/wp-content/uploads/2020/02/2-5.jpg?w=800"
+    },
+    {
+      "id": 22,
+      "carName": "Hennessey Venom F5 — 300+ MPH (Claimed)",
+      "image": "https://robbreport.com/wp-content/uploads/2020/12/3-8.jpg?w=800"
+    },
+    {
+      "id": 23,
+      "carName": "Bugatti Bolide—311 MPH (Claimed)",
+      "image": "https://robbreport.com/wp-content/uploads/2022/11/16-1.jpg?w=800"
+    },
+    {
+      "id": 24,
+      "carName": "Bugatti Chiron Super Sport — 304.7 MPH",
+      "image": "https://robbreport.com/wp-content/uploads/2021/12/1-23.jpg?w=800"
+    },
+    {
+      "id": 25,
+      "carName": " Koenigsegg Jesko Absolut—330 mph (Claimed)",
+      "image": "https://robbreport.com/wp-content/uploads/2021/06/11-5.jpg?w=800"
+    }
+  ]
+}
