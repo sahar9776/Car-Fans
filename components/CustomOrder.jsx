@@ -14,10 +14,10 @@ function CustomOrder() {
         </h2>
         <form onSubmit={(e)=>e.preventDefault()} className="max-w-full h-auto my-10">
             <div className="min-w-full h-auto mb-10 grid grid-cols-1 lg:grid-cols-2 lg:gap-x-20 lg:gap-y-10">
-            <Input name="Tires" />
-            <Input name="Axis of Balance" />
-            <Input name="Engine" />
-            <Input name="Chassis" />
+            <Input label="Tires" />
+            <Input label="Axis of Balance" />
+            <Input label="Engine" />
+            <Input label="Chassis" />
             </div>
             {/* button  */}
             <Button

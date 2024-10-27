@@ -35,6 +35,7 @@ function Contact() {
             <Input
               type="text"
               id="username"
+              label="username"
               placeholder="sahar76"
               {...formik.getFieldProps("username")}
             />
@@ -44,6 +45,7 @@ function Contact() {
 
             <Input
               id="email"
+              label="email"
               type="email"
               placeholder="sahar76@gmail.com"
               {...formik.getFieldProps("email")}
@@ -54,6 +56,7 @@ function Contact() {
 
             <Textarea
               id="description"
+              label="description"
               placeholder="Write your comments"
               {...formik.getFieldProps("description")}
             />

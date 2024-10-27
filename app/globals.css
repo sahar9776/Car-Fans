@@ -15,7 +15,7 @@
   .h3{
     @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
   }
-  .label{
+  .labelStyle{
     @apply block text-white/80 text-xl mb-2 capitalize;
   }
   .input{
