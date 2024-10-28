@@ -19,8 +19,8 @@ const itemVariants = {
 };
 
 const childVariants = {
-  hidden: { y: "-100vh" },
-  visible: { y: 0 },
+  hidden: { y: "-100vh", opacity: 0 },
+  visible: { y: 0, opacity: 1 },
 };
 
 function RacingInfo() {

@@ -26,7 +26,7 @@ function CarCustomization({ params }) {
                 }}
                 src={item.image}
                 alt=""
-                className="w-full lg:w-[50%] h-auto absolute top-0 lg:-top-36 left-0 lg:left-0"
+                className="w-full lg:w-[50%] h-auto absolute top-0 lg:-top-36 left-0 lg:left-0 rounded-md shadow-md shadow-slate-500"
               />
               <motion.img
                 initial={{ y: "100vh" }}
@@ -38,7 +38,7 @@ function CarCustomization({ params }) {
                 }}
                 src="https://t3.ftcdn.net/jpg/09/30/16/94/360_F_930169493_sk0FPnZLOAywUjQq9gaNeUUE1JH2aUpQ.jpg"
                 alt=""
-                className="w-[40%] h-auto absolute top-48 right-0 "
+                className="w-[40%] h-auto absolute top-48 right-0 rounded-md shadow-md shadow-slate-500"
               />
               <motion.h2
                 initial={{ x: "100vw" }}
