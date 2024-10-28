@@ -4,10 +4,21 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { useFormik } from "formik";
 import * as yup from "yup";
-import { useParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 
 function Register() {
- 
+  const router = useRouter();
+
+  const postCode = async (code) => {
+    await fetch("http://localhost:8000/codes", {
+      method: "Post",
+      body: JSON.stringify(code),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+  };
+
   const formik = useFormik({
     initialValues: {
       firstname: "",
@@ -19,8 +30,11 @@ function Register() {
       carName: "",
       carCode: "",
     },
-    onSubmit: (values) => {
-      alert(JSON.stringify(values));
+    onSubmit: async (values) => {
+      const code = parseInt(Math.random() * 1000000);
+      postCode({code});
+      alert(`Copy this code : ${code}`);
+      router.push("/");
     },
     validationSchema: yup.object({
       firstname: yup.string().max(15).min(3).required(),
