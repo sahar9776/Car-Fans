@@ -19,7 +19,7 @@
     @apply block text-white/80 text-xl mb-2 capitalize;
   }
   .input{
-    @apply w-full rounded-md px-2 py-1 outline-none text-slate-700 placeholder:text-slate-700;
+    @apply w-full max-h-10 rounded-md px-2 py-1 outline-none text-slate-700 placeholder:text-slate-700;
   }
   .textarea{
     @apply w-full rounded-md px-2 py-1 outline-none text-slate-700 placeholder:text-slate-700;
