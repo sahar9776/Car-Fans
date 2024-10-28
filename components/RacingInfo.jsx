@@ -32,7 +32,7 @@ function RacingInfo() {
       {/* warning text  */}
       <h2 className="h2 text-red-500 uppercase flex">
         <PiWarningOctagonBold />
-        warning{" "}
+        warning
       </h2>
       <motion.p
         initial={{ opacity: 0 }}
