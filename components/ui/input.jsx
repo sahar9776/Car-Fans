@@ -6,11 +6,7 @@ const Input = React.forwardRef(({ label, ...props }, ref) => {
       <label htmlFor={label} className="labelStyle">
         {label}
       </label>
-      <input
-        className="input"
-        ref={ref}
-        {...props}
-      />
+      <input className="input" autocomplete="off" ref={ref} {...props} />
     </div>
   );
 });
