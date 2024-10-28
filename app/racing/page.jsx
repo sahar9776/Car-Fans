@@ -44,7 +44,9 @@ function Racing() {
               placeholder="Enter Your Code"
               {...formik.getFieldProps("userCode")}
             />
-            <Button className="rounded-md max-h-[41px] mt-[-5px]">Confirm</Button>
+            <Button className="rounded-md max-h-[41px] mt-[-5px]">
+              Confirm
+            </Button>
           </form>
         )}
       </div>
