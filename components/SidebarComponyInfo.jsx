@@ -1,5 +1,4 @@
 import { ShowInfoContext } from "@/context/ShowInfoContext";
-import Image from "next/image";
 import { useContext } from "react";
 import { IoClose } from "react-icons/io5";
 
@@ -43,7 +42,7 @@ function SidebarComponyInfo() {
           {/* image brand  */}
           <div className="w-full lg:max-w-[35%] h-auto mb-5 lg:mb-0 border-b-2 border-r-2
            border-accent rounded-md">
-            <Image
+            <img
               src={imageBrand}
               alt={name}
               className="w-full h-auto rounded-md"
