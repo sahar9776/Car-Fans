@@ -1,7 +1,7 @@
 import Image from "next/image";
-import pic1 from "../images/1.jpg";
-import pic2 from "../images/2.jpg";
-import pic3 from "../images/3.jpg";
+import pic1 from "../public/images/1.jpg";
+import pic2 from "../public/images/2.jpg";
+import pic3 from "../public/images/3.jpg";
 import * as motion from "framer-motion/client";
 
 function CarBg() {
@@ -24,8 +24,13 @@ function CarBg() {
               delay: reverseIndex(index) * 0.2,
             }}
           >
-            <Image src={picture} width={160} height={25} alt="contain"
-            className="min-h-[340px]" />
+            <Image
+              src={picture}
+              width={160}
+              height={25}
+              alt="contain"
+              className="min-h-[340px]"
+            />
           </motion.div>
         ))}
       </div>

@@ -5,11 +5,17 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { CodesContext } from "@/context/CodesContext";
 import { useFormik } from "formik";
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import * as yup from "yup";
 
 function Racing() {
-  const { codes } = useContext(CodesContext);
+  // const { codes } = useContext(CodesContext);
+  const [codes, setCodes] = useState([]);
+
+  useEffect(() => {
+    setCodes(useContext(CodesContext));
+  }, [CodesContext]);
+  
   const [confirm, setConfirm] = useState(false);
 
   const formik = useFormik({

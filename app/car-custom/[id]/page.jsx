@@ -1,13 +1,14 @@
 "use client";
 
 import { ListOfCarsContext } from "@/context/ListOfCarsContext";
-import { useContext } from "react";
+import { useContext, use } from "react";
 import { motion } from "framer-motion";
 import CustomOrder from "@/components/CustomOrder";
 
-function CarCustomization({ params }) {
+function CarCustomization(props) {
+  const params = use(props.params);
   const { id } = params;
-  const { carsInfo } = useContext(ListOfCarsContext);
+  const { carsInfo,carName } = useContext(ListOfCarsContext);
   const filterCar = carsInfo.filter((item) => item.id === id);
 
   return (
@@ -15,7 +16,7 @@ function CarCustomization({ params }) {
       <div className="w-full h-[400px] mx-auto bg-transparent lg:bg-pink-50/20">
         <div className="container max-auto relative">
           {filterCar.map((item) => (
-            <div className="" key={item.id}>
+            <div key={item.id}>
               <motion.img
                 initial={{ y: "-100vh" }}
                 animate={{ y: "0" }}
@@ -37,7 +38,7 @@ function CarCustomization({ params }) {
                   ease: "easeInOut",
                 }}
                 src="https://t3.ftcdn.net/jpg/09/30/16/94/360_F_930169493_sk0FPnZLOAywUjQq9gaNeUUE1JH2aUpQ.jpg"
-                alt=""
+                alt={carName}
                 className="w-[40%] h-auto absolute top-48 right-0 rounded-md shadow-md shadow-slate-500"
               />
               <motion.h2

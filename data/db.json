@@ -5,7 +5,7 @@
       "name": "tesla",
       "Headquarters": " Austin, US",
       "description": "Tesla, founded by Elon Musk, has revolutionised the automotive industry with an array of electric vehicles and sustainable energy solutions. Known for its groundbreaking technology, Tesla produces popular models like the Model S, Model 3, Model X, and Model Y, alongside advancements in battery technology and autonomous driving.",
-      "imageBrand": "https://steerev.com/wp-content/uploads/teslas-technological-invnovation-ev.png",
+      "imageBrand": "https://assets.rbl.ms/30547112/origin.jpg",
       "CEO": "Elon Musk"
     },
     {
@@ -77,7 +77,7 @@
       "name": "General Motors",
       "Headquarters": " Detroit, US",
       "description": "William C Durant established General Motors on September 16, 1908. Durant was the largest seller of horse-drawn vehicles at the time, and GM was founded as a holding company for its first acquisition of the brand Buick. The automobile company is known for brands such as Chevrolet, GMC, Cadillac, and Buick. The current company came into existence after General Motors Chapter 11 recognition for bankruptcy in 2009. Now, the company also makes vehicles for the United States government and military and is in collaboration with NASA to develop EVs",
-      "imageBrand": "https://aghayerent.com/wp-content/uploads/2021/05/General-Motors-Gmc.jpg",
+      "imageBrand": "https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2021/09/Chevrolet-Tahoe.jpg",
       "CEO": " Mary Barra"
     }
   ],
@@ -216,49 +216,49 @@
   ],
   "racing": [
     {
-      "id": 1,
+      "id": "1",
       "time": "00:45 Am",
       "date": "2024/11/12",
       "location": "Argentina, Buenos Aires, Azcuénaga 1968"
     },
     {
-      "id": 2,
+      "id": "2",
       "time": "02:45 Am",
       "date": "2024/12/18",
       "location": "Germany, Munster, Sudmuhlenstrasse 186"
     },
     {
-      "id": 3,
+      "id": "3",
       "time": "00:05 Am",
       "date": "2025/1/7",
       "location": "United States, Plymouth, 4335 Peony Ln N"
     },
     {
-      "id": 4,
+      "id": "4",
       "time": "04:00 Am",
       "date": "2025/2/8",
       "location": "Malaysia, Sepang, Lot 3, Cottage Walk, Persiaran"
     },
     {
-      "id": 5,
+      "id": "5",
       "time": "01:10 Am",
       "date": "2025/2/28",
       "location": "Norway, Oslo, Grensen 3"
     },
     {
-      "id": 6,
+      "id": "6",
       "time": "00:45 Am",
       "date": "2025/4/19",
       "location": "South Africa, Baviaans Local Municipality, Knysna St"
     },
     {
-      "id": 7,
+      "id": "7",
       "time": "00:45 Am",
       "date": "2025/5/7",
       "location": "Portugal, Vila Nova de Gaia,Rua Polacos"
     },
     {
-      "id": 8,
+      "id": "8",
       "time": "05:05 Am",
       "date": "2025/6/20",
       "location": "Ireland, Dublin, 107-109 Howth Road"
