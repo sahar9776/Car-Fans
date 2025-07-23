@@ -9,13 +9,7 @@ import { useContext, useEffect, useState } from "react";
 import * as yup from "yup";
 
 function Racing() {
-  // const { codes } = useContext(CodesContext);
-  const [codes, setCodes] = useState([]);
-
-  useEffect(() => {
-    setCodes(useContext(CodesContext));
-  }, [CodesContext]);
-  
+  const { codes } = useContext(CodesContext);
   const [confirm, setConfirm] = useState(false);
 
   const formik = useFormik({
